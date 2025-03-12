@@ -6,7 +6,7 @@ int main (void)
     FILE *file = fopen("phonebook.csv", "a");
     if (file == NULL)
     {
-        perror("Error Opennin File");
+        perror("Error Opening File");
         return 1;
     }
 
